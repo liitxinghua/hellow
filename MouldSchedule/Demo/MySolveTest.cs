@@ -1,6 +1,6 @@
 ﻿using Google.OrTools.LinearSolver;
 
-namespace MouldSchedule
+namespace MouldSchedule.Demo
 {
     public static class MySolveTest
     {
