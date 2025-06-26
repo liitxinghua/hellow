@@ -18,6 +18,11 @@ namespace MouldSchedule.OrSchedule.Entity
         public EnumLoadFlg? LoadFlg { get; set; }
 
         /// <summary>
+        /// 生产预计时间 小时
+        /// </summary>           
+        public decimal? EstimatedProductionTime { get; set; }
+
+        /// <summary>
         /// 计划开始时间
         /// </summary>           
         public DateTime? PlanStart { get; set; }
